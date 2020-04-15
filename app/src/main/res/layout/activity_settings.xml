@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settingsImageviewid"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/avatarimage"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:id="@+id/settings_displayNameTextviewid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="312dp"
+        android:text="Display Names"
+        android:textSize="22sp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/settings2_discriptionTextviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="352dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Hi Friends.I am Md Sohrab Hossain..I am using Chat App"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/settings_ImageButtonid"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="175dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="182dp"
+        android:text="Change Image"
+        android:textSize="18sp" />
+
+    <Button
+    android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:background="#fff"
+        android:id="@+id/settings_statusbuttonid"
+        android:layout_width="170dp"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:text="Change Status" />
+</RelativeLayout>

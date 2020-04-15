@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <include layout="@layout/app_ber_layout"  android:id="@+id/login_page_toolbar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:text="Login to Your Account"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/setings_discriptionTextviewid"
+            />
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:textColor="#000"
+            android:textColorHint="#0C0000"
+            android:padding="7dp"
+            android:hint="Enter Your Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_emailEdittextid"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:textColor="#000"
+            android:textColorHint="#050000"
+            android:padding="7dp"
+            android:hint="Enter Your Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_passwordEdittextid"
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:background="#5C0AA9"
+            android:textColor="#fff"
+
+            android:text="Login"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:id="@+id/login_Loginbuttonid"
+            />
+    </LinearLayout>
+</LinearLayout>
